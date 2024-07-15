@@ -2,7 +2,9 @@
 #include <vector>
 
 // Function to calculate the average of an array of numbers
+
 double calculateAverage(const std::vector<int>& numbers) {
+    
     int sum = 0;
     for (int number : numbers) {
         sum += number;
